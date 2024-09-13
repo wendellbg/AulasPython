@@ -1,0 +1,11 @@
+# Importar biblioteca estatística
+import statistics
+# Informe os números para o calculo
+num1 = ("Digite o primeiro número: ")
+num2 = ("Digite o primeiro número: ")
+num3 = ("Digite o primeiro número: ")
+num4 = ("Digite o primeiro número: ")
+soma = (num1+num2+num3+num4)
+# Imprime a média aritmética
+print("A média Aritmética é: " % (statistics.mean(soma)))
+print("A média Harmonica é: " % (statistics.harmonic_mean(num1,num2,num3,num4)))  
