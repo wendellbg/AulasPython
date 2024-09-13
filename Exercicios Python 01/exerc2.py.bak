@@ -1,0 +1,3 @@
+x = input("Digite as horas: ")
+print(int(x) * int(60)+str(" minutos"))
+print(int(x) * int(3600)+str(" segundos"))
