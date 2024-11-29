@@ -1,0 +1,6 @@
+a = input("Digite um número qualquer: ")
+b = input("Digite outro número qualquer: ")
+print("Soma: ",int(a)+int(b))
+print("Subtração: ",int(a)-int(b))
+print("Multiplicação: ",int(a)*int(b))
+print("Divisão: ",int(a)/int(b))
