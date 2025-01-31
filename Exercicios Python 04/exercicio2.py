@@ -1,0 +1,12 @@
+arquivo = open("dados.txt","w")
+arquivo.write("Primeira linha de texto")
+arquivo.write("Segunda linha de texto")
+arquivo.write("Terceira linha de texto")
+arquivo.write("Quarta linha de texto")
+arquivo.write("Quinta linha de texto")   
+arquivo.close()
+leia = open("dados.txt", "r")
+#print(leia.readline())
+for x in leia:
+    print(x)
+leia.close()
