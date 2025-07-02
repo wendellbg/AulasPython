@@ -1,4 +1,5 @@
 #Exemplo de listas no Python
+#Calculando a média de um aluno com uma lista de notas
 notas = [10, 5.5, 6.5, 3.8]
 soma_notas = 0
 qtde_notas = len(notas)
