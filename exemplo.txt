@@ -1,1 +1,1 @@
-Estou escrevendo um texto para exemplo da função
+Eu sou um arquivo gerado com with.
