@@ -1,0 +1,21 @@
+# Exercicio agenda de contatos comentado
+# Versão 1.0 
+# Data 05 de setembro de 2025
+
+def adicionaContato(): # aqui estamos definindo a função adicionaContato
+    nome = input("Informe o nome: ") # aqui a variável nome vai receber o nome
+    telefone = input("Informe o telefone: ") # aqui a variável telefone vai receber o telefone
+    email = input("Informe o e-mail: ") # aqui a variável email vai receber o email
+    return nome, telefone, email # aqui o comando return vai retornar os valores que estão nas variáveis
+
+def exibeContato(contato): # aqui estamos definindo a função exibeContato com o argumento contato
+    return contato # aqui vamos retornar o valor do argumento
+
+contato1 = adicionaContato() # aqui a variável contato1 vai receber os dados que o usuário vai informar
+contato2 = adicionaContato()  # aqui a variável contato2 vai receber os dados que o usuário vai informar
+contato3 = adicionaContato()  # aqui a variável contato3 vai receber os dados que o usuário vai informar
+
+print(exibeContato(contato1)) # aqui vamos usar o print para exibir os dados do contato1
+print(exibeContato(contato2)) # aqui vamos usar o print para exibir os dados do contato2
+print(exibeContato(contato3)) # aqui vamos usar o print para exibir os dados do contato3
+    
