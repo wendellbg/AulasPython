@@ -1,1 +1,1 @@
-Eu sou um arquivo gerado com with.
+Usando with para manipular arquivos.
