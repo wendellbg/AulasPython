@@ -5,7 +5,9 @@ soma = 0
 for nota in notas:
     soma += nota
     media = soma/len(notas)
-print("A média da turma é: ",media)    
+print("A média da turma é: ",round(media,2))
+# Verificar qual o aluno está acima da média da turma e qual está
+# abaixo da média da turma
 for i in range(len(notas)):
     if notas[i] > media:
         print("Aluno com nota acima da media: ", nomes[i])        

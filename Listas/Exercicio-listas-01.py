@@ -7,7 +7,7 @@ nota2 = float(input("Informe a nota 2: "))
 nota3 = float(input("Informe a nota 3: "))
 nota4 = float(input("Informe a nota 4: "))
 media = (nota1 + nota2 + nota3 + nota4)/4
-print("A média do(a) aluno(a) é: ",media)
+print("A média do(a) aluno(a) é: ",round(media,2))
 if media < 6:
     print("O(a) aluno(a) está reprovado(a)")
 else:

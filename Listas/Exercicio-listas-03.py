@@ -2,11 +2,11 @@
 # está aprovado(a) ou reprovado(a)
 # usando listas
 
-notas = []
+notas = [] # Criei um lista vazia
 qtde_notas = int(input("Informe a quantidade de notas que deseja digitar: "))
 contador = 0
 while contador < qtde_notas:
-    notas.append(float(input("Digite a nota: ")))
+    notas.append(float(input("Digite a nota: "))) # Adicinar itens na lista
     contador = contador + 1
 soma = 0
 for item in notas:
